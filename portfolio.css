@@ -157,11 +157,13 @@ tbody tr:last-child td {
   box-shadow: 0 6px 16px #c3cedb;
 }
 
-.gallery-item img {
+.gallery-item img,
+.gallery-item video {
   display: block;
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
+  background-color: #111827;
 }
 
 .gallery-item figcaption {
